@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "MCP1825T-3302E_DC")(type "KiCad")(uri "${KIPRJMOD}/MCP1825T-3302E_DC")(options "")(descr ""))
+)

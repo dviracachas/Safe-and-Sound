@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "MCP1825T-3302E_DC")(type "Legacy")(uri "${KIPRJMOD}/MCP1825T-3302E_DC/MCP1825T-3302E_DC.lib")(options "")(descr ""))
+)

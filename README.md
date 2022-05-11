@@ -27,3 +27,5 @@ El intercomunicador Safe & Sound es un producto para motociclistas que buscan co
 
 ## Diagrama de bloques
 ![Screenshot](/Imagenes/DiagramaBloques.png)
+
+## Diagrama de funcionamiento

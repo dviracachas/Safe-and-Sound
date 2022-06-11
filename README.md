@@ -30,3 +30,6 @@ El intercomunicador Safe & Sound es un producto para motociclistas que buscan co
 
 ## Diagrama de funcionamiento
 [Diagrama de funcionamiento](Imagenes/Funcionamiento_safe_and_sound.pdf)
+
+## Hardware
+En el siguinte enlace se describirán los diferentes componentes en los que se divide el intercomunicador.

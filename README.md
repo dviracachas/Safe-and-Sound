@@ -34,7 +34,7 @@ El intercomunicador Safe & Sound es un producto para motociclistas que buscan co
 
 ## Descripción del Hardware
 Una vez identificadas las funciones y los requerimientos del intercomunicador a realizar se escogen los compontes básicos, estos son:
-
+!(/Imagenes/ESP32.jpg)
 Componentes Básicos:
 * ESP32-WROOM-32
 * Acelerómetro ADXL335.

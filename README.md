@@ -32,9 +32,9 @@ El intercomunicador Safe & Sound es un producto para motociclistas que buscan co
 [Diagrama de funcionamiento](Imagenes/Funcionamiento_safe_and_sound.pdf)
 
 
-## Descripción del Hardware
+### Descripción del Hardware
 Una vez identificadas las funciones y los requerimientos del intercomunicador a realizar se escogen los compontes básicos, estos son:
-!(/Imagenes/ESP32.jpg)
+
 Componentes Básicos:
 * ESP32-WROOM-32
 * Acelerómetro ADXL335.
@@ -51,9 +51,12 @@ Componentes Básicos:
 * Conector Micro-USB hembra.
 * Switch Deslizante.
 
-# Esp32-WROOM-32:
+### Esp32-WROOM-32:
 
 Se selecciona esta tarjeta chip teniendo en cuenta que esta permite una variedad de aplicaciones gracias a que mediante sus pines es posible la conexión de diferentes periféricos, cuenta con Wi-Fi, Bluetooth y Bluetooth LE MCU, permite el procesamiento de datos y es común en aplicaciones electrónicas portátiles alimentadas por batería. La tarjeta mencionada se ve a continuación:
+ 
+ ![Screenshot](/Imagenes/ESP32.jpg)
+
  
 Para este caso en específico se usará el Bluetooth para conectar el intercomunicador con un teléfono móvil, de este modo se transmitirán y recibirán señales de voz y de audio entre estos dos dispositivos. El procesamiento de datos se realizará una vez se reciban señales del acelerometro que se describirá posteriormente.
 La tarjeta Esp32-WROOM-32 tiene las siguientes especificaciones según su fabricante: 
@@ -70,9 +73,11 @@ La tarjeta Esp32-WROOM-32 tiene las siguientes especificaciones según su fabric
 * ROM: 448KB.
 * SRAM: 520KB.
 
-# Acelerómetro ADXL335:
+### Acelerómetro ADXL335:
 Con el fin de identificar cambios repentinos de la velocidad e inclinación del usuario (posibles accidentes) se usará el acelerómetro ADXL335 de 3 ejes mediante el cual es posible medir aceleraciones. Este módulo es ideal para aplicaciones de detección de inclinación gracias a que con este es posible medir la aceleracion estática de la gravedad así como la aceleración dinámica resultante de movimientos, choques o vibraciones. Las mediciones ejecutadas por este acelerómetro serán procesadas por medio de la Esp32 con el fin de interpretarlas de modo que se identifiquen posibles accidentes para la emisión de alertas. El acelerómetro se observa en la siguiente imagen: 
- 
+
+![Screenshot](/Imagenes/Acelerometro.jpg)
+
 Especificaciones básicas de operación:
 * Rando de de tensión para su funcionamiento: 1.8V – 3.6V.
 * Corriente de alimentación: 350uA.
@@ -80,9 +85,11 @@ Especificaciones básicas de operación:
 * Rango de medición: +/-3g.
 * Salida: Análoga.
 
-# Amplificador de Audio MAX98357 I2S 3W clase D
+### Amplificador de Audio MAX98357 I2S 3W clase D
 Ampificador clase D (amplificador de switcheo de alta eficiencia) con entrada de modulación de código de pulso digital mediante el cual se realizará la amplificación de las señales de audio que se deseen transmitir por medio de los altavoces. Este módulo emplea el protocolo de transmision de señales de audio digital I2S y es frecuente en dispositivos portatiles por su eficiencia.
- 
+
+![Screenshot](/Imagenes/Amplificador.jpg)
+
 Especificaciones: 
 * Tensión de alimentación: 2.5V – 5.5V.
 * Corriente nominal: 2.4mA.
